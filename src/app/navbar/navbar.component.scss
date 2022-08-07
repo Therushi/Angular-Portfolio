@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  padding: 10px;
+  align-items: center;
+}
+.list {
+  margin-left: 25px;
+  font-size: 18px;
+  &:hover {
+    color: #a7a2a2;
+    cursor: pointer;
+  }
+}
+.connect {
+  padding: 2px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  &:hover {
+    color: black;
+    background-color: gray;
+  }
+}
